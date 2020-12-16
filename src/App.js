@@ -6,9 +6,10 @@ import HookArray from './HookArray';
 import HookCounter from './HookCounter';
 import HookCounterOne from './HookCounterOne';
 import HookCounttwo from './HookCounttwo';
-import HookMouse from './HookMouse';
+//import HookMouse from './HookMouse';
 import HookObject from './HookObject';
 import IntervalClassCounter from './IntervalClassCounter';
+import IntervalHookCounter from './IntervalHookCounter';
 import MouseContainer from './MouseContainer';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       {/*<HookMouse />*/}
       <MouseContainer/>
       <IntervalClassCounter />
+      <IntervalHookCounter />
     </div>
   );
 }
